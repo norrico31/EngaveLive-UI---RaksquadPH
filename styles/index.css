@@ -11,6 +11,7 @@
     align-items: center;
 }
 body * {
+    position: relative;
     transition: 0.4s;
     color: #323d4c;
 }
