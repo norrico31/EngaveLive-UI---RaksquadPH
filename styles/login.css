@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+body * {
+    position: relative;
+    transition: 0.4s;
+    color: #323d4c;
+}
+body {
+    background: #e5ebf1;
+}
+.loginContainer {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 60px 0;
+}
+.logo {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #0197db;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.logo span {
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #0197db;
+}
+.head {
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.head h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    display: block;
+    padding: 10px;
+}
+.head p {
+    display: block;
+    padding: 10px;
+    opacity: .7;
+    font-size: 14px;
+    line-height: 20px;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 20px;
+    margin-top: 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    border-radius: 2px;
+}
+form .row {
+    padding: 6px 0;
+}
+form h4 {
+    font-weight: 700;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 14px;
+    opacity: .9;
+}
+form input {
+    border: 1px solid #b9c1cb;
+    border-radius: 2px;
+    padding: 4px 9px;
+    line-height: 25px;
+    height: 35px;
+    width: 100%;
+    color: #686f7f;
+    outline: none;
+    margin-bottom: 10px;
+}
+form input:focus {
+    outline: 1px solid #0197db;
+}
+form .btns {
+    width: 100%;
+    flex-direction: column;
+}
+.btns .logIn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #fff;
+    background: #0197db;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btns .googleBtn {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 0;
+    color: #4f5d72;
+    background: transparent;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+}
+.btns .microsoftBtn {
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 10px 0;
+    color: #4f5d72;
+    background: transparent;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+}
+.btns p {
+    font-size: 13px;
+}
+.btns .termsOfServices {
+    font-size: 13px;
+    opacity: .7;
+}
+.btns .termsOfServices a {
+    opacity: 1;
+    color: #000;
+}
+.btns .termsOfServices a:hover {
+    text-decoration: underline;
+    color: #aaa;
+}
+.forgotPass {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.forgotPass a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+    opacity: .8;
+}
+.forgotPass a:hover {
+    text-decoration: underline;
+}
